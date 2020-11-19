@@ -1,12 +1,12 @@
-# ignore everything in the "wordpress" directory, except:
+# ignore everything in the "wordpress" directory:
 wordpress/*
 
-# ignore everything in the "data" directory, except:
+# ignore everything in the "data" directory:
 data/*
 
-# ignore everything in themes except the "dev_theme" directory.
-themes/
-!themes/dev_theme/
+# ignore everything in themes except the "twentytwenty-child" directory.
+themes/*
+!themes/twentytwenty-child
 
 # ignore log files and databases
 *.log
